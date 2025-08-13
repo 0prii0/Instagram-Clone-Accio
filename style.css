@@ -26,8 +26,8 @@
 }
 
 .profile-img {
-  height: 35px;
-  width: 45px;
+  height: 24px;
+  width: 24px;
   border-radius: 50%;
 }
 
@@ -90,15 +90,6 @@
   justify-content: center;
   align-items: center;
   animation: slideLeftRight 1s infinite alternate ease-in-out;
-}
-
-@keyframes slideLeftRight {
-  0% {
-    transform: translateX(0px);
-  }
-  100% {
-    transform: translateX(20px);
-  }
 }
 
 .stories-image > img {
